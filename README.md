@@ -1,2 +1,2 @@
 # HTML_Pasteleria
-Ejercicios de HTML
+Ejercicios de práctica HTML
