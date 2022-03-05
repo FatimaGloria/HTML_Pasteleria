@@ -11,7 +11,13 @@
     <img src="C:\Users\Win10\Desktop\HTML Prácticas\Fantasy Cake Factory.png" alt="Logo de Fantasy Cake Factory" width="190 px" height="175 px">
     <h1>Fantasy Cake Factory</h1>
    <hr>
-   <!-- Tabla de Pedidos --> 
+  
+    <!-- Determinar fecha del día --> 
+    <label for= "fecha"> Fecha </label>
+    <input type= "date" id= "fecha1" name= "fecha1">
+    
+      
+    <!-- Tabla de Pedidos --> 
    <h2>Tablero de Pedidos</h2>
  
    <table>
@@ -19,6 +25,7 @@
             <th>Número de Pedido</th>
             <th>Nombre del cliente</th>
             <th>Descripción del Pastel Ordenado</th>
+            <th>Estatus del Pedido</th>
         </tr>
         
         <!-- Datos de la tabla --> 
@@ -26,61 +33,77 @@
             <td>F5879</td>
             <td>Karina Martinez</td>
             <td>Pastel de Zanahoria y Vainilla, relleno de Dulce de leche, cobertura de Chantilly y adornado con nuez picada </td>
-        </tr>
+            <td>
+                <select name= "status" id= "status"> 
+                    <option value= "nuevo"> Nuevo Pedido </option>
+                    <option value= "proceso"> En proceso </option>
+                    <option value= "cancelado"> Cancelado </option>
+                    <option value= "completo"> Completo </option>
+                </select>
+           </td>
+       </tr>
         <tr>
             <td>F5880</td>
             <td>Alex Flores</td>
             <td>Pastel de Café y Chocolate, sin relleno, cobertura de Garnache y adornado con chocolate rallado</td>
-        </tr>
+            <td>
+                <select name= "status" id= "status"> 
+                    <option value= "nuevo"> Nuevo Pedido </option>
+                    <option value= "proceso"> En proceso </option>
+                    <option value= "cancelado"> Cancelado </option>
+                    <option value= "completo"> Completo </option>
+                </select>
+            </td>
+       </tr>
     </table>
     <br><br>
     
     <h2>Inventario</h2>
     <!-- Inventario de los sabores disponibles -->  
-    <h3>Sabores:</h3>
+    <h3> Unidades faltantes de Sabores: </h3>
    
     <label for= "sabor1"> Pastel sabor Vainilla </label> 
-    <input type="range" id="sabor1" name="sabor1" min="0" max="100"><br>
+    <input type="number" id="sabor1" name="sabor1"><br>
    
     <label for= "sabor2"> Pastel sabor Chocolate </label>
-    <input type="range" id="sabor2" name="sabor2" min="0" max="100"><br>
+    <input type="number" id="sabor2" name="sabor2"><br>
     
     <label for= "sabor3"> Pastel sabor Fresa </label> 
-    <input type="range" id="sabor3" name="sabor3" min="0" max="100"><br>
+    <input type="number" id="sabor3" name="sabor3"><br>
    
     <label for= "sabor4"> Pastel Red Velvet </label> 
-    <input type="range" id="sabor4" name="sabor4" min="0" max="100"><br>
+    <input type="number" id="sabor4" name="sabor4"><br>
    
     <label for= "sabor5"> Pastel sabor Café </label> 
-    <input type="range" id="sabor5" name="sabor5" min="0" max="100"><br>
+    <input type="number" id="sabor5" name="sabor5"><br>
     
     <label for= "sabor6"> Pastel de Zanahoria </label>
-    <input type="range" id="sabor6" name="sabor6" min="0" max="100">
+    <input type="number" id="sabor6" name="sabor6">
     <br> <br>
 
     <!-- Inventario de los adornos disponibles --> 
-    <h3>Adornos:</h3>
+    <h3> Unidades faltates de Adornos:</h3>
 
     <label for= "adorno1"> Chocolate rallado </label>
-    <input type="range" id="adorno1" name="adorno1" min="0" max="100"><br>
+    <input type="number" id="adorno1" name="adorno1"><br>
     
     <label for= "adorno2"> Fresas </label>
-    <input type="range" id="adorno2" name="adorno2" min="0" max="100"><br>
+    <input type="number" id="adorno2" name="adorno2"><br>
     
     <label for= "adorno3"> Cerezas </label> 
-    <input type="range" id="adorno3" name="adorno3" min="0" max="100"><br>
+    <input type="number" id="adorno3" name="adorno3"><br>
     
     <label for= "adorno4"> Mango </label> 
-    <input type="range" id="adorno4" name="adorno4" min="0" max="100"><br>
+    <input type="number" id="adorno4" name="adorno4"><br>
     
     <label for= "adorno5"> Chispas de colores </label>
-    <input type="range" id="adorno5" name="adorno5" min="0" max="100"><br> 
+    <input type="number" id="adorno5" name="adorno5"><br> 
    
     <label for= "adorno6"> Flores de Betún </label>
-    <input type="range" id="adorno6" name="adorno6" min="0" max="100"><br>
+    <input type="number" id="adorno6" name="adorno6"><br>
     
     <label for= "adorno7"> Nuez picada </label> 
-    <input type="range" id="adorno7" name="adorno7" min="0" max="100">
+    <input type="number" id="adorno7" name="adorno7">
     <br> <br>
     
     <!--Botones para guardar cambios y para la impresión de la página--> 
