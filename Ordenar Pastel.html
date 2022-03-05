@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE= edge">
+        <meta name="viewport" content="width= device-width, initial-scale= 1.0">
+        <title>Crea tu pastel- Fantasy Cake Factory</title>
+    </head>
+    <body>
+         <!-- Logo y titulo de la página --> 
+        <img src="C:\Users\Win10\Desktop\HTML Prácticas\Fantasy Cake Factory.png" alt="Logo de Fantasy Cake Factory">
+        <h1>Crea tu propio pastel</h1>
+        <hr>
+
+        <!-- Checkbox para escoger los sabores --> 
+        <h3>Paso 1: Escoge el sabor</h3>
+
+        <input type= "checkbox" id= "sabor1" name= "sabor1" value= "Vainilla">
+        <label for= "sabor1"> Pastel sabor Vainilla </label> <br>
+       
+        <input type= "checkbox" id= "sabor2" name= "sabor2" value= "Chocolate">
+        <label for= "sabor2"> Pastel sabor Chocolate </label> <br>
+       
+        <input type= "checkbox" id="sabor3" name= "sabor3" value= "Fresa">
+        <label for= "sabor3"> Pastel sabor Fresa </label> <br>
+       
+        <input type= "checkbox" id= "sabor4" name= "sabor4" value= "Red Velvet">
+        <label for= "sabor4"> Pastel Red Velvet </label> <br>
+       
+        <input type= "checkbox" id= "sabor5" name= "sabor5" value= "Café">
+        <label for= "sabor5"> Pastel sabor Café </label> <br>
+        
+        <input type= "checkbox" id="sabor6" name= "sabor6" value= "Zanahoria">
+        <label for= "sabor6"> Pastel de Zanahoria </label>
+        <br><br>
+
+         <!-- Checkbox para escoger el relleno --> 
+        <h3>Paso 2: Elige el relleno</h3>
+        
+        <input type= "checkbox" id= "relleno1" name= "relleno1" value= "Mermelada de fresa">
+        <label for= "relleno1"> Mermelada de fresa </label> <br>
+        
+        <input type= "checkbox" id= "relleno2" name= "relleno2" value= "Mermelada de piña">
+        <label for= "relleno2"> Mermelada de piña </label> <br>
+        
+        <input type= "checkbox" id="relleno3" name= "relleno3" value= "Mermelada de zarzamora">
+        <label for= "relleno3"> Mermelada de zarzamora </label> <br>
+       
+        <input type= "checkbox" id= "relleno4" name= "relleno4" value= "Chantilly">
+        <label for= "relleno4"> Chantilly con queso crema </label> <br>
+        
+        <input type= "checkbox" id= "relleno5" name= "relleno5" value= "Dulce de leche">
+        <label for= "relleno5"> Dulce de leche </label> <br>
+        
+        <input type= "checkbox" id="relleno6" name= "relleno6" value= "Sin relleno">
+        <label for= "relleno6"> Sin relleno </label> 
+        <br> <br>
+
+         <!-- Radio para escoger una cobertura --> 
+        <h3>Paso 3: Elige la cobertura</h3>
+        
+        <input type= "radio" id= "glaseado" name= "coberturas" value= "Glaseado">
+        <label for= "glaseado"> Glaseado </label> <br>
+        
+        <input type= "radio" id= "mantequilla" name= "coberturas" value= "Crema de mantequilla">
+        <label for= "mantequilla"> Crema de mantequilla </label> <br>
+        
+        <input type= "radio" id= "chocolate" name= "coberturas" value= "Chocolate">
+        <label for= "chocolate"> Garnache (Chocolate) </label> <br>
+        
+        <input type= "radio" id= "fondant" name= "coberturas" value= "Fondant">
+        <label for= "fondant"> Fondant </label> <br>
+        
+        <input type= "radio" id= "merengue" name= "coberturas" value= "Merengue">
+        <label for= "merengue"> Merengue </label> <br>
+       
+        <input type= "radio" id= "chantilly" name= "coberturas" value= "Chantilly">
+        <label for= "chantilly"> Chantilly </label>
+        <br> <br>
+
+         <!-- Checkbox para escoger los adornos --> 
+        <h3>Paso 4: Decora tu pastel</h3>
+        <input type= "checkbox" id= "adorno1" name= "adorno1" value= "Chocolate rallado">
+        <label for= "adorno1"> Chocolate rallado </label> <br>
+        
+        <input type= "checkbox" id= "adorno2" name= "adorno2" value= "Fresas">
+        <label for= "adorno2"> Fresas </label> <br>
+        
+        <input type= "checkbox" id="adorno3" name= "adorno3" value= "Cerezas">
+        <label for= "adorno3"> Cerezas </label> <br>
+        
+        <input type= "checkbox" id= "adorno4" name= "adorno4" value= "Mango">
+        <label for= "adorno4"> Mango </label> <br>
+        
+        <input type= "checkbox" id= "adorno5" name= "adorno5" value= "Chispas">
+        <label for= "adorno5"> Chispas de colores </label> <br>
+       
+        <input type= "checkbox" id="adorno6" name= "adorno6" value= "Betún">
+        <label for= "adorno6"> Flores de Betún </label><br>
+        
+        <input type= "checkbox" id="adorno7" name= "adorno7" value= "Nuez">
+        <label for= "adorno7"> Nuez picada </label> 
+        <br> <br>
+    
+        <h3>¡Felicidades has creado tu pastel!</h3>
+
+        <!-- Captura de datos del cliente --> 
+        <h4>Para recogerlo solo necesitamos los siguientes datos:</h4>
+        
+        <label for="nombre1"> Nombre Completo: </label>
+        <input type= "text" id= "nombre1" name= "nombre1"><br><br>
+       
+        <label for= "telefono1"> Teléfono: </label>
+        <input type="tel" id= "telefono1" name= "telefono1" maxlength= "10" minlength= "10"><br><br>
+        
+        <label for= "correo1"> Email: </label>
+        <input type= "email" id="correo1" name="correo1">
+        <br> <br>
+        
+        <!--Botón para completar y registrar la orden --> 
+         <input type="button" id="pedido" name="pedido" value="Enviar orden" onclick= "alert('Tu pedido ha sido registrado, se te enviará un email con el recibo.');">
+        <br>
+        <br>
+    </body>
+</html>

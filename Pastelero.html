@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Mi Perfil - Fantasy Cake Factory</title>
+</head>
+<body>
+     <!-- Logo y nombre de la Pastelería --> 
+    <img src="C:\Users\Win10\Desktop\HTML Prácticas\Fantasy Cake Factory.png" alt="Logo de Fantasy Cake Factory" width="190 px" height="175 px">
+    <h1>Fantasy Cake Factory</h1>
+   <hr>
+   <!-- Tabla de Pedidos --> 
+   <h2>Tablero de Pedidos</h2>
+ 
+   <table>
+        <tr>
+            <th>Número de Pedido</th>
+            <th>Nombre del cliente</th>
+            <th>Descripción del Pastel Ordenado</th>
+        </tr>
+        
+        <!-- Datos de la tabla --> 
+        <tr>
+            <td>F5879</td>
+            <td>Karina Martinez</td>
+            <td>Pastel de Zanahoria y Vainilla, relleno de Dulce de leche, cobertura de Chantilly y adornado con nuez picada </td>
+        </tr>
+        <tr>
+            <td>F5880</td>
+            <td>Alex Flores</td>
+            <td>Pastel de Café y Chocolate, sin relleno, cobertura de Garnache y adornado con chocolate rallado</td>
+        </tr>
+    </table>
+    <br><br>
+    
+    <h2>Inventario</h2>
+    <!-- Inventario de los sabores disponibles -->  
+    <h3>Sabores:</h3>
+   
+    <label for= "sabor1"> Pastel sabor Vainilla </label> 
+    <input type="range" id="sabor1" name="sabor1" min="0" max="100"><br>
+   
+    <label for= "sabor2"> Pastel sabor Chocolate </label>
+    <input type="range" id="sabor2" name="sabor2" min="0" max="100"><br>
+    
+    <label for= "sabor3"> Pastel sabor Fresa </label> 
+    <input type="range" id="sabor3" name="sabor3" min="0" max="100"><br>
+   
+    <label for= "sabor4"> Pastel Red Velvet </label> 
+    <input type="range" id="sabor4" name="sabor4" min="0" max="100"><br>
+   
+    <label for= "sabor5"> Pastel sabor Café </label> 
+    <input type="range" id="sabor5" name="sabor5" min="0" max="100"><br>
+    
+    <label for= "sabor6"> Pastel de Zanahoria </label>
+    <input type="range" id="sabor6" name="sabor6" min="0" max="100">
+    <br> <br>
+
+    <!-- Inventario de los adornos disponibles --> 
+    <h3>Adornos:</h3>
+
+    <label for= "adorno1"> Chocolate rallado </label>
+    <input type="range" id="adorno1" name="adorno1" min="0" max="100"><br>
+    
+    <label for= "adorno2"> Fresas </label>
+    <input type="range" id="adorno2" name="adorno2" min="0" max="100"><br>
+    
+    <label for= "adorno3"> Cerezas </label> 
+    <input type="range" id="adorno3" name="adorno3" min="0" max="100"><br>
+    
+    <label for= "adorno4"> Mango </label> 
+    <input type="range" id="adorno4" name="adorno4" min="0" max="100"><br>
+    
+    <label for= "adorno5"> Chispas de colores </label>
+    <input type="range" id="adorno5" name="adorno5" min="0" max="100"><br> 
+   
+    <label for= "adorno6"> Flores de Betún </label>
+    <input type="range" id="adorno6" name="adorno6" min="0" max="100"><br>
+    
+    <label for= "adorno7"> Nuez picada </label> 
+    <input type="range" id="adorno7" name="adorno7" min="0" max="100">
+    <br> <br>
+    
+    <!--Botones para guardar cambios y para la impresión de la página--> 
+    <input type="button" id="imprimir" name="imprimir" value= "Imprimir">
+    <input type="button" id="cambios" name="cambios" value= "Guardar Cambios">
+
+        <br>
+        <br>
+</body>
+</html>
